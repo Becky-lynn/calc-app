@@ -1,53 +1,74 @@
 body {
-   /*background: url(https://imagesh.com/photo-1529690052479-844e385129cb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1655&q=80);*/
-   background: url(https://images.unsplash.com/photo-1515895309288-a3815ab7cf81?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80);
    font-family: 'Caveat Brush', cursive;
+   background: url(https://images.unsplash.com/photo-1517008729672-a63ddcf53acb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1504&q=80);
 }
 
 .calculator {
-   top: 35%;
    left: 35%;
-   border: 2p solid;
-   /*background-color: lemonchiffon   ;*/
    padding: 50px;
    text-align: center;
 }
 
-.input {
+h1 {
+    font-size: 70px;
+    color: red;
+    font-family: 'Caveat Brush', cursive;
+}
+#output {
+    font-size: 70px;
+}
+
+input {
   text-align: center;
+  width: 20%
   ;
 }
 
 .input1 {
-    width: 100px;
+    width: 80px;
+    height: 85px;
     text-align: center;
-    margin: 20;
+    margin: 35;
     font-size: 3em;
     cursor: pointer;
+    font-family: 'Caveat Brush', cursive;
+
 }
 
-.operation {
-    width: 100px;
+#operation {
+    width: 80px;
+    /*height: 60px;*/
     text-align: center;
-    margin: 20 20 20 30;
-    font-size: 3em;
+    margin: 20 20 30 2;
+    font-size: 1.9em;
     /*border: none;*/
     /*background-color: lemonchiffon;*/
     cursor: pointer;
+    font-family: 'Caveat Brush', cursive;
+    color: red;
+
 }
 
 .input3 {
-    width: 100px;
+    width: 80px;
+    height: 85px;
     text-align: center;
     margin: 20;
     font-size: 3em;
     cursor: pointer;
+    font-family: 'Caveat Brush', cursive;
+
 }
 
 
 .equals {
     text-align: center;
-    margin: 20;
+    margin: 20 20 30 20;
+    font-family: 'Caveat Brush', cursive;
+    width: 80px;
+    font-size: 1.9em;
+    height: 60px;
+    color: red;
 }
 
 .output {
@@ -68,12 +89,8 @@ body {
     font-size: 3em;
     margin: 20;
     cursor: pointer;
-}
-
-display {
+    font-family: 'Caveat Brush', cursive;
 
 }
 
-keys {
 
-}

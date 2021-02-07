@@ -1,6 +1,8 @@
-import { calculator } from "./calc.js"
+//knows how to respond to html and dom with click events and sends to calc class
 
-let calc = new calculator();
+import { Calculator } from "./calc.js"
+
+let calc = new Calculator();
 
 document.getElementById("calculate").addEventListener('click', function(){
     let input1 = Number(document.getElementById('input1').value);
@@ -17,15 +19,19 @@ document.getElementById("calculate").addEventListener('click', function(){
    if (operation == "+") {
       output = calc.add(input1, input2);
      }
-   else if(operation == "-") {
+   else if (operation == "-") {
       output = calc.subtract(input1, input2);
    }
-  else if (operation == "*") {
+   else if (operation == "*") {
       output = calc.multiply(input1, input2);
    }
- else if (operation == "/") {
+   else if (operation == "/") {
       output = calc.divide(input1, input2);
- }
+   }
+   else {
+     output = "???";
+   }
+   
   document.getElementById("output").innerText = output;
 
 });
